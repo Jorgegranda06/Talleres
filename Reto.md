@@ -1,5 +1,5 @@
 Estudiantes.csv
-
+```
 nombre,edad,calificacion,genero
 Andrés,10,20,M
 Ana,11,19,F
@@ -11,6 +11,7 @@ Rosario,11,18,F
 Nieves,10,20,F
 Pablo,9,19,M
 Daniel,10,20,M
+```
 
 Case Class
 ```Scala
@@ -21,7 +22,10 @@ case class Estudiante(
                        nombre: String,
                        edad: Int,
                        calificacion: Int,
+                       genero: String
+                     )
 ```
+
 Object
 ```Scala
 package Clase15
@@ -98,5 +102,4 @@ object TallerReto extends IOApp.Simple {
   }
 }
 ```
-                       genero: String
-                     )
+                      
